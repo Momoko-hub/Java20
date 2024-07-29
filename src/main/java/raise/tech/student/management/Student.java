@@ -1,8 +1,10 @@
 package raise.tech.student.management;
 
+
 public class Student {
   private String name;
   private int age;
+
 
   public String getName() {
     return name;
@@ -19,4 +21,5 @@ public class Student {
   public void setAge(int age) {
     this.age = age;
   }
+
 }
